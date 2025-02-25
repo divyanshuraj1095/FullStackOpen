@@ -1,0 +1,3 @@
+GET http://localhost:4001/api/persons
+##
+DELETE http://localhost:4001/api/persons

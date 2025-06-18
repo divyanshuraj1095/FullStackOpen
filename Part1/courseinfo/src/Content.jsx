@@ -1,10 +1,12 @@
+import Parts from './Parts.jsx'
 const Content = (props) =>{
+    const parts = props.parts
+    // console.log('here1')
     return (
         <div>
-           <p>{props.part1} {props.exercises1}</p>
-           <p>{props.part2} {props.exercises2}</p>
-           <p>{props.part3} {props.exercises3}</p>
-           
+          <Parts part ={parts[0]}/>
+          <Parts part ={parts[1]}/>
+          <Parts part ={parts[2]}/>  
         </div>
     )
 
